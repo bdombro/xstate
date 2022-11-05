@@ -1,5 +1,11 @@
 # xstate
 
+## 4.34.1
+
+### Patch Changes
+
+- [#3666](https://github.com/statelyai/xstate/pull/3666) [`5e0808eb4`](https://github.com/statelyai/xstate/commit/5e0808eb440f77b8404db6676401849053cfcfd8) Thanks [@davidkpiano](https://github.com/davidkpiano)! - The warning for the `predictableActionArguments` setting has been improved to only warn if it is absent. You can disable the warning by setting `predictableActionArguments: false`. It's still recommended to set it to `true` though.
+
 ## 4.34.0
 
 ### Minor Changes
